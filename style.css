@@ -35,8 +35,8 @@ li{
     font-weight: bold;
 }
 .nav-button:hover{
-    color: #fff !important;
-    background: #242f51 !important;
+    background: #FEAA25 !important;
+    color:#000 !important;
     transition: .3s;
 }
 /******************************
@@ -221,8 +221,16 @@ li{
     padding: 3rem 0;   
 }
 .h-f6{
-    padding: 0 8rem;
+    margin-top: .75rem;
+    color: #242f51 !important;
+    padding: 0 25rem;
     margin-right:0rem !important;
+}
+.f6-right p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #616368 !important;
+    margin: 0 20rem;
 }
 .h3-f6{
     font-size: 1.25rem;
@@ -234,8 +242,210 @@ li{
 *******************************/
 .feature7{
     width: 100%;
-    padding: 3rem 0;   
+    padding: 3rem 0; 
+    border-bottom: 1;  
 }
 .h-f7{
     padding-right: 12rem;
+}
+.f7-img{
+    padding-right: 0 ;
+}
+/******************************
+     feature-8 css here      
+*******************************/
+.feature8{
+    width: 100%;
+    padding: 7rem 0 7rem 0;
+    border-bottom: 1px solid #ebebeb !important;
+
+}
+.h-f8{
+    margin: 0 22rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #242f51 !important;
+}
+.f8-right p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #616368 !important;
+    margin: 0 17.75rem;
+    
+}
+.price-btn{
+    display: inline-block;
+    border: 1px solid #ebebeb !important;
+    border-radius: 35px;
+    padding: 1px;
+    margin: 3rem auto;
+
+}
+.manualy-btn1,
+.manualy-btn2{
+    border: none;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 35px;
+    color: #898a8e !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.toggle-btn{
+    background: #2500f9 !important;
+    transition: .5s;
+    color: #fff !important;
+
+}
+.price-table1,
+.price-table2{
+    border: 1px solid #ebebeb !important;
+    text-align: center;
+    padding-bottom: 2.25rem;
+    border-radius: .75rem;
+    
+}
+.price-header{
+    background-image: linear-gradient(to bottom, #fdfefe, #fbfcfd, #f8fbfb, #f6f9fa, #f4f7f9);
+    padding: 3.5rem 0 1.75rem 0;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+}
+.price-header h1{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #242f51 !important;
+}
+.price-header h1 span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #999ca5 !important;
+}
+.price-header h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #242f51 !important;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+}
+.price-header p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #999ca5 !important;
+    margin-top: 0.4rem;
+}
+.price-body ul{
+    margin-top: 1.5rem;
+    padding-left: 0;
+    margin-bottom: 1.8rem;
+}
+.price-body ul li{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #999ca5 !important;
+    padding-top: 1.1rem;
+}
+.price-body p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2500f9 !important;
+    padding-top: 1.75rem;
+    margin-bottom: 0 ;
+    cursor: pointer;
+    transition: .3s;
+
+} 
+.price-body p:hover{
+    color:#FEAA25 !important ;
+    transition: .8s;
+    font-weight: 600;
+}
+.table-shadow{
+    box-shadow: 0rem 3rem 2rem 1px #eef1f3 !important;
+    border: none !important;
+    transition: .5s;
+}
+/******************************
+     feature-9 css here      
+*******************************/
+.feature9{
+    width: 100%;
+    padding: 9.5rem 0 9.5rem 0;
+    border-bottom: 1px solid #ebebeb !important;
+}
+.testimonal h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #242f51 !important;
+    margin-right: 6rem;
+}
+.testimonal p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #616368 !important;
+    margin-right: 7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.25rem;
+}
+.p-f9{    
+    margin-right: 0rem !important;   
+}
+.testimonal i{
+    color: #ffcc00 !important;
+}
+.testimonal h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #242f51 !important;
+    margin-top: 1.5rem;
+}
+.profile h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #242f51 !important;
+}
+.profile p{
+    margin: 0 ;
+    font-size: 1.125rem;
+}
+.f9-testimonal{
+    position: absolute;
+    left: 0 ;
+    top: 14rem;
+    
+}
+/******************************
+     feature-10 css here      
+*******************************/
+.feature10{
+    width: 100%;
+    padding: 9.5rem 0 9.5rem 0;
+    border-bottom: 1px solid #ebebeb !important;
+}
+.accordion-item{
+    margin-bottom: .63rem;
+    background: #f5f7fa !important;
+    border: none;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background: #f5f7fa !important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button{
+    background: #f5f7fa !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow:none
 }
