@@ -393,7 +393,10 @@ li{
     margin-bottom: 2.25rem;
 }
 .p-f9{    
-    margin-right: 0rem !important;   
+    margin-right: 0rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #616368 !important;   
 }
 .testimonal-2 i{
     color: #ffcc00 !important;
@@ -416,6 +419,8 @@ li{
 .profile p{
     margin: 0 ;
     font-size: 1.125rem;
+    font-weight: 400;
+    color: #616368 !important;
 }
 .f9-testimonal{
     position: absolute;
@@ -425,7 +430,17 @@ li{
 }
 .carousel-control-prev {
     left: 35rem;
+    position: relative;
     
+}
+.carousel-control-prev::after{
+    content: "";
+    position: absolute;
+    right: -48px;
+    top: 20px;
+    width: 2px;
+    height: 1.75rem;
+    background: #d6d4d4 !important;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -447,7 +462,6 @@ li{
 }
 .carousel-control-prev-icon {
     background-image: url(img/arrow-left-short.svg);
-    background-color: #eff3f8 !important;
     background-size: 25px;
     width: 40px !important;
     height: 40px !important;
@@ -457,6 +471,9 @@ li{
     border: 3px solid #eff3f8 !important;
     text-align: center;
     line-height: 40px;
+}
+.carousel-control-prev-icon:hover{
+    background-color: #eff3f8 !important;
 }
 .carousel-control-next-icon {
     background-image: url(img/arrow-right-short.svg);
@@ -470,6 +487,11 @@ li{
     border: 3px solid #eff3f8 !important;
     text-align: center;
     line-height: 40px;
+}
+.line{
+    width: 2px;
+    height: 1rem;
+    background: #eff3f8 !important;;
 }
 /******************************
      feature-10 css here      
