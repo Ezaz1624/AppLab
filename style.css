@@ -13,6 +13,9 @@ a{
 li{
     list-style: none;
 }
+.nav-body{
+    margin: 0 12.5rem;
+}
 .navbar-collapse {
     flex-grow: 0;
 }
@@ -20,12 +23,12 @@ li{
     color: #242f51!important;
     font-size: 1rem;
     font-weight: 400;
-    transition: .3s;
-
+    transition:all .3s linear;
+    padding: 0 !important;
 }
 .h-menu li a:hover{
     color: #fcae61 !important;;
-    transition: .3s;
+    transition:all .3s linear;
 }
 .nav-button{
     background: rgb(37, 0, 249)!important;
@@ -33,22 +36,24 @@ li{
     transition: .3s;
     font-size: 1rem;
     font-weight: bold;
+    transition:all .3s linear;
+
 }
 .nav-button:hover{
     background: #FEAA25 !important;
     color:#000 !important;
-    transition: .3s;
+    transition:all .3s linear;
 }
 /******************************
      main-banare css here      
 *******************************/
 .main-banare{
     background: url(img/phone.png);
-    background-position:center;
-    background-size:100% 100%;
+    background-position:top;
+    background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +140,6 @@ li{
 .feature2{
     width: 100%;
     height: 100vh;
-    /* padding: 2rem 0; */
 }
 .f2-img{
     margin-top: 1rem;
@@ -300,7 +304,7 @@ li{
 }
 .price-table1,
 .price-table2{
-    border: 1px solid #ebebeb !important;
+    border: 3px solid #ebebeb !important;
     text-align: center;
     padding-bottom: 2.25rem;
     border-radius: .75rem;
@@ -353,18 +357,18 @@ li{
     padding-top: 1.75rem;
     margin-bottom: 0 ;
     cursor: pointer;
-    transition: .3s;
+    transition:all .3s linear;
 
 } 
 .price-body p:hover{
     color:#FEAA25 !important ;
-    transition: .8s;
+    transition:all .3s linear;
     font-weight: 600;
 }
 .table-shadow{
     box-shadow: 0rem 3rem 2rem 1px #eef1f3 !important;
     border: none !important;
-    transition: .5s;
+    transition:all .3s linear;
 }
 /******************************
      feature-9 css here      
@@ -374,13 +378,13 @@ li{
     padding: 9.5rem 0 9.5rem 0;
     
 }
-.testimonal h1{
+.testimonal-1 h1{
     font-size: 2.5rem;
     font-weight: 600;
     color: #242f51 !important;
     margin-right: 6rem;
 }
-.testimonal p{
+.testimonal-1 p{
     font-size: 1rem;
     font-weight: 400;
     color: #616368 !important;
@@ -391,17 +395,17 @@ li{
 .p-f9{    
     margin-right: 0rem !important;   
 }
-.testimonal i{
+.testimonal-2 i{
     color: #ffcc00 !important;
 }
-.testimonal h3{
+.testimonal-2 h3{
     font-size: 1.25rem;
     font-weight: 600;
     color: #242f51 !important;
     margin-top: 1.5rem;
 }
 .profile-body{
-    margin-top: 4.5rem;
+    margin-top: 4.75rem;
 }
 .profile h2{
     font-size: 1.125rem;
@@ -418,6 +422,54 @@ li{
     left: 0 ;
     top: 14rem;
     
+}
+.carousel-control-prev {
+    left: 35rem;
+    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 18rem;
+    bottom: 0;
+    z-index: 1;
+    display: inline-block;
+    /* align-items: flex-end;
+    justify-content: flex-end; */
+    width: 0%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-left-short.svg);
+    background-color: #eff3f8 !important;
+    background-size: 25px;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block;
+    border-radius: 50px;
+    color: #dee1e6;
+    border: 3px solid #eff3f8 !important;
+    text-align: center;
+    line-height: 40px;
+}
+.carousel-control-next-icon {
+    background-image: url(img/arrow-right-short.svg);
+    background-color: #eff3f8 !important;
+    background-size: 25px;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block;
+    border-radius: 50px;
+    color: #dee1e6;
+    border: 3px solid #eff3f8 !important;
+    text-align: center;
+    line-height: 40px;
 }
 /******************************
      feature-10 css here      
@@ -473,9 +525,7 @@ li{
 }
 .accordion-button:not(.collapsed)::after {
     background-image: none;
-    transform: rotate(
-0deg
-);
+    transform: rotate(0deg);
 }
 /******************************
      feature-11 css here      
@@ -532,12 +582,14 @@ li{
     color: #fff!important;
     font-size: 1rem;
     font-weight: 400;
-    transition: .3s;
+    transition:all .3s linear;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 
 }
 .f-menu li a:hover{
     color: #fcae61 !important;;
-    transition: .3s;
+    transition:all .3s linear;
 }
 .footer-body i{
     margin-top: 2.5rem;
